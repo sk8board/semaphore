@@ -1,3 +1,8 @@
+// Semiphore operated by servo
+// Code for Arduino Uno ATmega328
+// Servo is Hitec 32645S HS-645MG High Torque 2BB Metal Gear Servo
+// Pin 2 activates two relays which toggle power and ground to the servo so the servo is only powered when moving
+
 #include <Servo.h>
 
 Servo myservo;  // create servo object to control a servo
@@ -12,12 +17,12 @@ const long interval = 300000; //time in miliseconds, 5 minuted equals 300000 msm
 
 void setup() {
   myservo.attach(9);  // attaches the servo on pin 9 to the servo object
-  myservo.write(old);
-  analogWrite(3, 255);
-  pinMode(2, OUTPUT);
-  digitalWrite(2, HIGH);
+  myservo.write(old);  // set initial position of the servo
+  analogWrite(3, 255);  // ground for LED
+  pinMode(2, OUTPUT);  // relay control pin
+  digitalWrite(2, HIGH);  // activate relays to power and move servo to initial position
   delay(1000);
-  digitalWrite(2, LOW);
+  digitalWrite(2, LOW);  // remove power and ground to the servo
 }
 
 void loop() {
