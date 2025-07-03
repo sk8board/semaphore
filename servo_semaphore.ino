@@ -13,7 +13,7 @@ int increment = 18;  // rate of rotation change
 int old = 1600;    // previous quadrant
 
 unsigned long previousMillis = 0;
-const long interval = 300000; //time in miliseconds, 5 minuted equals 300000 msmyservo.write(0);
+const long interval = 300000; //time in miliseconds, 5 minutes equals 300000
 
 void setup() {
   myservo.attach(9);  // attaches the servo on pin 9 to the servo object
