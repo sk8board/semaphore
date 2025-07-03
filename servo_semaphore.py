@@ -1,4 +1,4 @@
-# Semiphore operated by servo
+# Semaphore operated by servo
 # Servo code is for Pico
 # Servo is Hitec 32645S HS-645MG High Torque 2BB Metal Gear Servo
 # Pin 2 activates two relays which toggle power and ground to the servo so the servo is powered only when moving
