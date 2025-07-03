@@ -19,7 +19,7 @@ class semaphore:
         self.neg_inc = self.pos_inc * -1
 
     # time intervals    
-        self.interval = 5000  # time in miliseconds, 5 minutes equals 300,000
+        self.interval = 300_000  # time in miliseconds, 5 minutes equals 300,000
         self.prev_time = time.ticks_ms()
 
     # pin assignment
