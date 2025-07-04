@@ -21,3 +21,9 @@ A wall decoration of a railroad semaphore that is operated with a servo.
 # CAD
 
 https://cad.onshape.com/documents/e3e23192bd17c8e147fb8134/w/ecdbcfe77778f63a7da56bb8/e/2300d9f324a28fc1d9251c09?renderMode=0&uiState=68680afd173d9866c8ec7d61
+
+NOTE: This can be made with foamboard, hot glue, and colored lighting gel filters or with 3D printing.
+
+# Reference
+
+https://railroadsignals.us/signals/sem/index.htm
